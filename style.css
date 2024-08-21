@@ -1,0 +1,116 @@
+body {
+  margin: 100;  
+}
+    
+    
+
+header {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center;
+}
+
+header img {
+    width: 300px;
+    margin: 0 auto; /* Asegura que la imagen esté centrada */
+}
+
+.redes {
+    display: flex;
+    justify-items: flex-end;
+    padding: 5px;
+}
+
+#carrito {
+    width: 40px;
+    &:hover{
+        background-color: palevioletred;
+    }
+}
+
+#lupa{
+    width: 40px;
+    &:hover{
+        background-color: palevioletred;
+    }
+}
+
+#menu{
+    font-family:'Source Code Pro', monospace; 
+    font-size: large;
+    padding:9px ;
+    cursor: pointer;
+    &:hover{
+        background-color: palevioletred;
+        color: white;
+        
+    }
+
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(230, 111, 131);
+    overflow-x: hidden;
+    transition: 0.6s;
+    padding-top: 60px;
+    color: white;
+}
+
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.2s;
+    font-family:'Source Code Pro', monospace; 
+    &:hover{
+        color: black;
+    }
+}
+
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    &:hover{
+        color: black;
+    }
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 80px);
+    
+}
+
+.imagen-fondo {
+    padding-top: 20px;
+    display: block;
+    justify-content: center; 
+    position: relative;
+}
+
+
+#fondo{
+    width: 1150px;
+    height: 570px;  
+}
+
+
+
+
+
+
